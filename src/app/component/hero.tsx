@@ -6,7 +6,6 @@ import { CiCalendar } from "react-icons/ci";
 import Header from "./header";
 
 function Hero({ products }: any) {
-  console.log("products are in hero ", products.length);
   return (
     <div className="bg-[#fbebb5]  mx-auto  max-w-screen-2xl">
       <Header />
@@ -18,7 +17,7 @@ function Hero({ products }: any) {
           <span className="text-3xl sm:text-4xl md:text-6xl font-semibold block mb-6">
             seater
           </span>
-          <Link href="/">
+          <Link href="/shop">
             <p className="text-2xl mt-8 underline underline-offset-8 text-black-600 ">
               Shop Now
             </p>
@@ -45,7 +44,7 @@ function Hero({ products }: any) {
               src="/Mask group (6).png"
             />
             <h3 className="text-3xl font-medium">Side table</h3>
-            <Link href="/">
+            <Link href="/shop">
               <p className="text-xl mt-8 underline underline-offset-8 text-black-600 ">
                 View More
               </p>
@@ -60,7 +59,7 @@ function Hero({ products }: any) {
               src="/Mask group.png"
             />
             <h3 className="text-3xl font-medium">Side table</h3>
-            <Link href="/">
+            <Link href="/shop">
               <p className="text-xl mt-8 underline underline-offset-8 text-black-600 ">
                 View More
               </p>
@@ -117,7 +116,7 @@ function Hero({ products }: any) {
             Asgaard sofa
           </h2>
 
-          <Link href="/asgaardsofa/">
+          <Link href="/shop/">
             <button className="py-3  px-8 border-black border-2">
               Order Now
             </button>
@@ -218,11 +217,11 @@ function Hero({ products }: any) {
           </div>
         </div>
       </div>
-      <div className="relative md:w-[1600px] md:h-[450px] mb-12">
+      <div className="relative md:w-[1600px] md:h-[450px] mb-12 h-full">
         <Image
           src="/Rocket single seater 1.png"
-          height={450}
-          width={1600}
+          height={200}
+          width={550}
           alt="A stylish rocket single seater"
           className="rounded-lg object-cover"
         />
